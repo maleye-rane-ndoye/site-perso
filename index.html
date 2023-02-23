@@ -5,12 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
-    <title>site perso</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <script src="script.js" defer></script>
+    <title>webflix</title>
 </head>
 <body>
-    <header>
-        <h1 class="bg-sky-100">Mon site personnel</h1>
-    </header>
+    <div class="container">
+    <h1>Qui est-ce ?</h1>
+    <div class="content-profil">
+        <a class="profil" onclick="openHome('maleye')">
+            <div>
+                <div id="user1" class="profil-icon"></div>
+                <p class="profil-name">Maleye</p>
+           </div>
+       </a>
+        
+        <a class="profil" onclick="openHome('visiteur')">
+            <div >
+                <div id="user2" class="profil-icon"></div>
+                <p class="profil-name">Visiteur</p>
+            </div>
+        </a>
+        
+        <a class="profil" onclick="openHome('superviseur')">
+            <div >
+                <div id="user3" class="profil-icon"></div>
+                <p class="profil-name">Superviseur</p>
+            </div>
+        </a>
+        
+        <a class="profil" onclick="openHome('admin')">
+            <div >
+                <div id="user4" class="profil-icon"></div>
+                <p class="profil-name">Admin</p>
+            </div>
+        </a>
+    </div>
+        
+</div>
+    <div class="set-profils"><a href="">Gérer les profils</a></div>
 </body>
 </html>

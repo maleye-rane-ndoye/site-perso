@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <script src="script.js" defer></script>
+    <title>Accueil - Webflix</title>
+</head>
+<body>
+<nav id="nave" class="nave">
+    <div class="nav-left">
+        <div><img src="images/webflix-logo.png" class="logo"></div>
+             <a href="Accueil.html">Accueil</a>
+             <a href="">Projet</a>
+             <a href="AboutMe.html">About Me</a>
+             <a href="Parcours.html">Parcours</a>
+             <a href="curriculum.html">Mon cv</a>
+             <a href="contact.html">Contacts</a>
+    </div>
+    <span class="flex"></span>
+    <div class="nav-right">
+            <input type="search" placeholder="Titre, Projet, langage " onkeyup="mysearch()" id="lookup" class="search" />
+            <button onclick="toggle()"><i class="fa fa-search"></i></button>
+            <a href="index.html" id="user">
+                <div>
+                    <span class="avatar"></span>
+                    <span class="username"></span>
+                </div>
+            </a>
+    </div>
+   
+</nav> 
+    <div class="displaybox">
+        <video src="video webflix.mp4" id="myVideo"></video>
+    </div>
+    <section id="myMenu" class="box">
+        <a class="box-content" href="https://maleye-rane-ndoye.students-laplateforme.io/module-connexion/">
+            <img src="images/module1.png" id="module">
+            <div class="descript">
+                <button <i class="fa fa-fw fa-play"></i></button>
+                <h3>Module-connexion</h3>
+                <div class="flex-descript">
+                    <h4>langages <i class="fa fa-fw fa-point"></i></h4>
+                    <p>PHP . MySQL . HTML . CSS</p>
+                </div>
+            </div>
+        </a>
+               
+        <a class="box-content" href="https://maleye-rane-ndoye.students-laplateforme.io/fansite/">
+            <img src="images/fansite.png" id="fansite">
+            <div class="descript">
+                <button <i class="fa fa-fw fa-play"></i></button>
+                <h3>Fansite</h3>
+                <div class="flex-descript">
+                    <h4>langages <i class="fa fa-fw fa-point"></i></h4>
+                    <p>HTML . CSS</p>
+                </div>
+            </div>
+        </a>
+        <a class="box-content" href="https://maleye-rane-ndoye.students-laplateforme.io/mycms/">
+            <img src="images/mycms.png" id="mycms">
+            <div class="descript">
+                <button <i class="fa fa-fw fa-play"></i></button>
+                <h3>My CMS</h3>
+                <div class="flex-descript">
+                    <h4>langages <i class="fa fa-fw fa-point"></i></h4>
+                    <p>Full Wordpress</p>
+                </div>
+            </div>
+        </a>
+        <a class="box-content" href="https://maleye-rane-ndoye.students-laplateforme.io/Ville-Marseille/">
+            <img src="images/marseille.png" id="marseille">
+            <div class="descript">
+                <button <i class="fa fa-fw fa-play"></i></button>
+                <h3>Ville de Marseille</h3>
+                <div class="flex-descript">
+                    <h4>langages <i class="fa fa-fw fa-point"></i></h4>
+                    <p>PHP . MySQL . HTML . CSS . Github</p>
+                </div>
+            </div>
+        </a>
+        <a class="box-content" href="https://maleye-rane-ndoye.students-laplateforme.io/la-plateforme/">
+            <img src="images/laplatefome.png" id="plateforme">
+            <div class="descript">
+                <button <i class="fa fa-fw fa-play"></i></button>
+                <h3>La Plateforme</h3>
+                <div class="flex-descript">
+                    <h4>langages <i class="fa fa-fw fa-point"></i></h4>
+                    <p>HTML . CSS(Flex-box & grid) . Github</p>
+                </div>
+            </div>
+        </a>
+        <a class="box-content" href="https://maleye-rane-ndoye.students-laplateforme.io/livre-or/">
+            <img src="images/livreor.png" id="livreor">
+            <div class="descript">
+                <button <i class="fa fa-fw fa-play"></i></button>
+                <h3>Livre D'Or</h3>
+                <div class="flex-descript">
+                    <h4>langages <i class="fa fa-fw fa-point"></i></h4>
+                    <p>PHP . MySQL . HTML . CSS</p>
+                </div>
+            </div>
+        </a>
+        <a href="">vide</a>
+        <a href="">vide</a>
+        <a href="">vide</a>
+        <a href="">vide</a>
+        <a href="">vide</a>
+        <a href="">vide</a>
+        <a href="">vides</a>
+        <a href="">vide</a>
+        <a href="">vide</a>
+        <a href="">vide</a>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="footercontent">
+               <div class="image">
+                   <img src="images/facebook (1).png" width="30px" alt="">
+                   <img src="images/linkedin.png" width="30px" alt="">
+                   <img src="images/twitter.png" width="30px" alt="">
+                   <img src="images/youtube.png" width="30px" alt="">
+                </div>
+
+                <div class="footerbloc">       
+                    <p><a href="Accueil.html">Accueil</a></p>
+                    <p><a href="">About me</a></p>
+                    <p><a href="Parcours.html">Parcours</a></p>
+            
+                </div>
+            
+                <div class="footerbloc">
+                    <p><a href="">Projets</a></p>
+                    <p><a href="https://drive.google.com/drive/my-drive">Partager un projet</a></p>
+                    <p><a href="curriculum.html">Mon cv</a></p>
+                </div>
+                
+                <div class="footerbloc">        
+                    <p><a href="https://laplateforme.io/">Etablissement de formatuion </a></p>
+                    <p><a href="https://github.com/maleye-rane-ndoye">Vister mon github</a></p>
+                    <p><a href="https://maleye-rane-ndoye.students-laplateforme.io/">Webflix</a></p>
+                </div>
+            
+                <div class="footerbloc">        
+                    <p><a href="">Condition de telechagement</a></p>
+                    <p><a href="">Contacts</a></p>
+                    <p><a href="">Mentions légale</a></p>
+            </div>
+        </div>
+        <div class="underfooter">
+            <p>Copyright © Fevrier 2023|maleye rane ndoye|, Apprenant en Informatique (web developpement)</p>
+            <p>Établissement: La plateforme</p>
+            <p>Superviseur: Aurelie preaud</p>
+        </div>
+    </footer>
+</body>
+</html>
